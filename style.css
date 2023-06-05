@@ -1,0 +1,246 @@
+.custom-bg {
+  max-width: 100%;
+  padding: 0 200px;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+h1 {
+  margin-top: 5rem !important;
+  color: #bc8f8f;
+}
+
+h2 {
+  color: #8b5a2b;
+}
+a {
+  font-size: 14px;
+  font-weight: 700;
+}
+.superNav {
+  font-size: 13px;
+}
+.form-control {
+  outline: none !important;
+  box-shadow: none !important;
+}
+@media screen and (max-width: 540px) {
+  .centerOnMobile {
+    text-align: center;
+  }
+}
+.sliders {
+  display: flex;
+  height: 20rem;
+  gap: 5rem;
+  margin-top: 50px;
+}
+.sliders > div {
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+.sliders > div:hover {
+  flex: 2;
+  border-radius: 1rem;
+}
+
+.paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.paragraph > div {
+  flex-basis: 50%;
+  padding: 1rem;
+}
+
+.paragraph > div:last-child {
+  text-align: center;
+}
+
+.paragraph > div:last-child img {
+  max-width: 100%;
+  height: auto;
+}
+
+.shopnowbottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem !important;
+}
+
+.mostpopular {
+  background-color: antiquewhite;
+  margin-top: 6rem;
+}
+
+.bloc-image {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  height: 30rem;
+}
+
+.bloc-image img {
+  position: relative;
+  z-index: 2;
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-decoration {
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+  border: 0.8rem solid;
+  border-color: #8f4e45;
+  opacity: 0.7;
+  width: 80%;
+  height: 100%;
+}
+
+.actua {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 165px 11px 117px;
+}
+
+.actua > div {
+  flex-basis: 40%;
+  padding: 1rem;
+}
+
+.actua > div:last-child {
+  text-align: right;
+}
+.actua > div:last-child img {
+  max-width: 50%;
+  height: 50%;
+  border-radius: 1rem;
+}
+
+.site-footer {
+  background-color: #8f4e45;
+  padding: 15px 0 0px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: antiquewhite;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  text-decoration: none;
+
+  color: #ffffff !important;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.instagram:hover {
+  background-color: #8807a9;
+}
+
+
+.helpandabout {
+  display: flex;
+}
